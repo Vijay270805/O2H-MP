@@ -1,0 +1,31 @@
+{
+  "name": "smart-project-management-portal-backend",
+  "version": "1.0.0",
+  "description": "REST API for the Smart Project Management Portal — built with Express, MySQL & Sequelize",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "sequelize",
+    "rest-api",
+    "task-management"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.22.5",
+    "sequelize": "^6.37.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
